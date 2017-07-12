@@ -20,7 +20,7 @@ namespace Enkata
         public string urlWhatsApp = "https://web.whatsapp.com/";
         public string urlWire = "https://app.wire.com/";
         public string urlOutlook = "https://outlook.live.com/owa/";
-        public string urlFbMessenger = "https://www.messenger.com/login/";
+        public string urlMessenger = "https://www.messenger.com/login/";
 
         public frmMain()
         {
@@ -59,8 +59,8 @@ namespace Enkata
                 PanelWire.Controls.Add(cWire);
 
                 // FB Messenger
-                var cFbMessenger = new ChromiumWebBrowser(urlFbMessenger);
-                PanelFbMessenger.Controls.Add(cFbMessenger);
+                var cMessenger = new ChromiumWebBrowser(urlMessenger);
+                PanelMessenger.Controls.Add(cMessenger);
 
                 // Gmail
                 var cGmail = new ChromiumWebBrowser(urlGmail);
@@ -112,7 +112,7 @@ namespace Enkata
             this.contextMenuStrip1.Items.Add("-");
             this.contextMenuStrip1.Items.Add("E&xit");
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.MinimumSize = new Size(688,487); // 480,560 or 688,487
+            this.MinimumSize = new Size(480,560); // 480,560 or 688,487
             this.Size = new Size(960,690);
 
             // Check Auto Running
@@ -237,9 +237,9 @@ namespace Enkata
             }
         }
 
-        private void fBMessengerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MessengerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            showPanel(PanelFbMessenger);
+            showPanel(PanelMessenger);
         }
     }
 }

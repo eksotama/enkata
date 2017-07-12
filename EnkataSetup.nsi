@@ -118,7 +118,7 @@ FunctionEnd
 
 Function un.onInit
   !insertmacro MUI_UNGETLANGUAGE
-  MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Are you sure you want to completely remove $(^Name) and all of its components?" IDYES +2
+  MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Are you sure you want to completely remove $(^Name)?" IDYES +2
   Abort
 FunctionEnd
 
@@ -144,6 +144,7 @@ Section "MainSection" SEC01
   File /r "Enkata\bin\x64\Release\locales"
   File "Enkata\bin\x64\Release\*.dll"
   File "Enkata\bin\x64\Release\*.bin"
+  File "Enkata\bin\x64\Release\*.dat"
   File "Enkata\bin\x64\Release\*.pak"
   ;------------------------------------------------
   SetOutPath "$TEMP\${PRODUCT_NAME}Setup86\"
@@ -152,6 +153,7 @@ Section "MainSection" SEC01
   File /r "Enkata\bin\x86\Release\locales"
   File "Enkata\bin\x86\Release\*.dll"
   File "Enkata\bin\x86\Release\*.bin"
+  File "Enkata\bin\x86\Release\*.dat"
   File "Enkata\bin\x86\Release\*.pak"
   ;------------------------------------------------
 

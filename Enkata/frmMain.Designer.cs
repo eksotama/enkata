@@ -52,7 +52,7 @@
             this.telegramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whatsAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wireWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fBMessengerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MessengerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.socialMediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.twitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.instagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +61,7 @@
             this.PanelTelegram = new System.Windows.Forms.Panel();
             this.PanelWire = new System.Windows.Forms.Panel();
             this.PanelGmail = new System.Windows.Forms.Panel();
-            this.PanelFbMessenger = new System.Windows.Forms.Panel();
+            this.PanelMessenger = new System.Windows.Forms.Panel();
             this.Panel503 = new System.Windows.Forms.Panel();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -217,7 +217,7 @@
             this.telegramToolStripMenuItem,
             this.whatsAppToolStripMenuItem,
             this.wireWebToolStripMenuItem,
-            this.fBMessengerToolStripMenuItem});
+            this.MessengerToolStripMenuItem});
             this.messagingToolStripMenuItem.Name = "messagingToolStripMenuItem";
             this.messagingToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.messagingToolStripMenuItem.Text = "&Messaging";
@@ -243,12 +243,12 @@
             this.wireWebToolStripMenuItem.Text = "Wire Chat";
             this.wireWebToolStripMenuItem.Click += new System.EventHandler(this.wireWebToolStripMenuItem_Click);
             // 
-            // fBMessengerToolStripMenuItem
+            // MessengerToolStripMenuItem
             // 
-            this.fBMessengerToolStripMenuItem.Name = "fBMessengerToolStripMenuItem";
-            this.fBMessengerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fBMessengerToolStripMenuItem.Text = "FB Messenger";
-            this.fBMessengerToolStripMenuItem.Click += new System.EventHandler(this.fBMessengerToolStripMenuItem_Click);
+            this.MessengerToolStripMenuItem.Name = "MessengerToolStripMenuItem";
+            this.MessengerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.MessengerToolStripMenuItem.Text = "FB Messenger";
+            this.MessengerToolStripMenuItem.Click += new System.EventHandler(this.MessengerToolStripMenuItem_Click);
             // 
             // socialMediaToolStripMenuItem
             // 
@@ -307,12 +307,12 @@
             this.PanelGmail.Size = new System.Drawing.Size(128, 80);
             this.PanelGmail.TabIndex = 8;
             // 
-            // PanelFbMessenger
+            // PanelMessenger
             // 
-            this.PanelFbMessenger.Location = new System.Drawing.Point(146, 119);
-            this.PanelFbMessenger.Name = "PanelFbMessenger";
-            this.PanelFbMessenger.Size = new System.Drawing.Size(128, 80);
-            this.PanelFbMessenger.TabIndex = 9;
+            this.PanelMessenger.Location = new System.Drawing.Point(146, 119);
+            this.PanelMessenger.Name = "PanelMessenger";
+            this.PanelMessenger.Size = new System.Drawing.Size(128, 80);
+            this.PanelMessenger.TabIndex = 9;
             // 
             // Panel503
             // 
@@ -330,7 +330,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 381);
             this.Controls.Add(this.Panel503);
-            this.Controls.Add(this.PanelFbMessenger);
+            this.Controls.Add(this.PanelMessenger);
             this.Controls.Add(this.PanelGmail);
             this.Controls.Add(this.PanelWire);
             this.Controls.Add(this.PanelTelegram);
@@ -383,8 +383,8 @@
         private System.Windows.Forms.ToolStripMenuItem clearDataToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem refreshToolStripMenuItem;
-        private System.Windows.Forms.Panel PanelFbMessenger;
-        private System.Windows.Forms.ToolStripMenuItem fBMessengerToolStripMenuItem;
+        private System.Windows.Forms.Panel PanelMessenger;
+        private System.Windows.Forms.ToolStripMenuItem MessengerToolStripMenuItem;
         private System.Windows.Forms.Panel Panel503;
     }
 }
