@@ -15,7 +15,7 @@ I prefer to using [Chromium Embedded Framework (CEF)](https://bitbucket.org/chro
 * Misc some improvements
 
 ## Todo
-* Autostart (HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run)
+* Autostart Application
 * Check internet connection
 
 ## License
