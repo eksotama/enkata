@@ -149,7 +149,8 @@ namespace Enkata
         {
             timer1.Stop();
             timer1.Enabled = false;
-            this.Close();
+            Cef.Shutdown();
+            Application.Exit();
         }
 
         private void frmMain_Resize(object sender, EventArgs e)
