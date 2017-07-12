@@ -1,6 +1,6 @@
 # Enkata is:
 
-a free messaging app that combines chat & messaging services into one application. Enkata currently supports Slack, 
+A free messaging app that combines chat & messaging services into one application. Enkata currently supports Slack, 
 Wire, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, Skype and many more. Instead using Electron, 
 I prefer to using [Chromium Embedded Framework (CEF)](https://bitbucket.org/chromiumembedded/cef) and dotNet Framework 
 [CEFSharp](https://github.com/cefsharp/CefSharp). Currently only available for Windows both of 32bit and 64bit version.
