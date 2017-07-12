@@ -17,6 +17,8 @@ I prefer to using [Chromium Embedded Framework (CEF)](https://bitbucket.org/chro
 ## Todo
 * Autostart Application
 * Check internet connection
+* Lock windows function
+* Minimize to taskbar, close to tray
 
 ## License
 Copyright (c) 2017 Aris Ripandi. All usage is subject only to the terms of The MIT License (MIT).

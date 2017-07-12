@@ -139,18 +139,20 @@ Section "MainSection" SEC01
   ;------------------------------------------------
   SetOutPath "$TEMP\${PRODUCT_NAME}Setup64\"
   SetOverwrite ifnewer
+  File "Enkata\bin\x64\Release\CefSharp.BrowserSubprocess.exe"
+  File "Enkata\bin\x64\Release\${PRODUCT_NAME}.exe"
+  File /r "Enkata\bin\x64\Release\locales"
   File "Enkata\bin\x64\Release\*.dll"
   File "Enkata\bin\x64\Release\*.bin"
   File "Enkata\bin\x64\Release\*.pak"
-  File /r "Enkata\bin\x64\Release\locales"
-  File "Enkata\bin\x64\Release\${PRODUCT_NAME}.exe"
   ;------------------------------------------------
   SetOutPath "$TEMP\${PRODUCT_NAME}Setup86\"
+  File "Enkata\bin\x86\Release\CefSharp.BrowserSubprocess.exe"
+  File "Enkata\bin\x86\Release\${PRODUCT_NAME}.exe"
+  File /r "Enkata\bin\x86\Release\locales"
   File "Enkata\bin\x86\Release\*.dll"
   File "Enkata\bin\x86\Release\*.bin"
   File "Enkata\bin\x86\Release\*.pak"
-  File /r "Enkata\bin\x86\Release\locales"
-  File "Enkata\bin\x86\Release\${PRODUCT_NAME}.exe"
   ;------------------------------------------------
 
   DetailPrint "Creating application shortcut"
